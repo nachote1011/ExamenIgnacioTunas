@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package examenrecu;
+package Ignacio;
 
 /**
  *
@@ -16,6 +16,8 @@ public class Ignacio {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Comercial Juan= new Comercial(Juan,412.12);
+        System.out.println(Juan.toString());
     }
     
 }

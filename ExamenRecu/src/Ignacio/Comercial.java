@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package examenrecu;
+package Ignacio;
 
 /**
  *
@@ -16,6 +16,11 @@ public class Comercial {
     public Comercial(String nombre, double sueldo) {
         this.nombre = nombre;
         this.sueldo = sueldo;
+    }
+
+    @Override
+    public String toString() {
+        return "Comercial{" + "nombre=" + nombre + ", sueldo=" + sueldo + '}';
     }
     
 }
