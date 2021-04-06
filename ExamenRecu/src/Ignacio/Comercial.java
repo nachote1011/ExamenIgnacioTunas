@@ -12,10 +12,14 @@ package Ignacio;
 public class Comercial {
     private String nombre;
     private double sueldo;
+    private int num;
+    private String fechanac;
 
-    public Comercial(String nombre, double sueldo) {
+    public Comercial(String nombre, double sueldo,int num,String fechanac) {
         this.nombre = nombre;
         this.sueldo = sueldo;
+        this.num=num;
+        this.fechanach=fechanac;
     }
 
        @Override
